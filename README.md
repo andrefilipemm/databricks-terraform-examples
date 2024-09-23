@@ -1,8 +1,9 @@
 # databricks-terraform-examples
 
-This is just a mono-repository to work out various examples of infrastructure deployments across different cloud environments. The repo's built on a Terragrunt wrap-up from Terraform source code in [terraform-modules](https://github.com/andrefilipemm/terraform-modules).
+This is just a mono-repository to work out various examples of infrastructure deployments across different cloud environments. The repo's built on a Terragrunt wrap-up from Terraform source code in [terraform-modules](https://github.com/orgs/andre-terraform-modules/repositories).
 
-Ideally this repo should not contain a single `.tf` file, as all Terraform configuration is dinamically injected from module mono-repo in [terraform-modules](https://github.com/andrefilipemm/terraform-modules).
+Ideally this repo should not contain a single `.tf` file, as all Terraform configuration is dinamically injected from dedicated module mono-repo in [terraform-modules](https://github.com/orgs/andre-terraform-modules/repositories).
+For example, all AAD infrastructure is provisioned via [terraform-aad-modules](https://github.com/andre-terraform-modules/terraform-aad-modules).
 
 TODO:
 - Investigate usage of [artifactory](https://jfrog.com/help/r/jfrog-artifactory-documentation/resolve-terraform-modules) via JFrog. 
